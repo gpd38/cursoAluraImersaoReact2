@@ -3,6 +3,30 @@
   "title": "Quiz Invenções da Alura",
   "description": "Teste os seus conhecimentos sobre as invenções do nosso mundo e descubra quando ela foi inventada.",
   "questions": [
+	{
+      "image": "https://media.giphy.com/media/XUFPGrX5Zis6Y/giphy.gif",
+      "title": "Quando foi inventado a 'Bomba Atômica'?",
+      "description": "Inventor: Julius Robert Oppeheimer",
+      "answer": 3,
+      "alternatives": [
+         "1815",
+         "1865",
+         "1914",
+         "1945"
+      ]
+    },
+	{
+      "image": "https://www.acasadasartes.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/o/borracha_verde.jpg",
+      "title": "Quando foi inventado a 'Borracha'?",
+      "description": "Inventor: Edward Naime",
+      "answer": 1,
+      "alternatives": [
+         "1750",
+         "1770",
+         "1810",
+         "1830"
+      ]
+    },
     {
       "image": "https://media.giphy.com/media/LVCdHNPTIY2be/giphy.gif",
       "title": "Quando foi inventado 'Para-Raios'?",
@@ -28,17 +52,17 @@
       ]
     },
     {
-      "image": "https://www.acasadasartes.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/o/borracha_verde.jpg",
-      "title": "Quando foi inventado a 'Borracha'?",
-      "description": "Inventor: Edward Naime",
-      "answer": 1,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Montgolfier_Balloon.JPG/170px-Montgolfier_Balloon.JPG",
+      "title": "Quando foi inventado o 'Balão de Ar Quente'?",
+      "description": "Inventor: Joseph & Etienne Montgolfier",
+      "answer": 3,
       "alternatives": [
-         "1750",
-         "1770",
-         "1810",
-         "1830"
+         "1780",
+         "1781",
+         "1782",
+         "1783"
       ]
-    },
+    },	
     {
       "image": "https://media.giphy.com/media/ftkCpvutVqubUuQT3V/giphy.gif",
       "title": "Quando foi inventado o 'Fóforo'?",
@@ -49,18 +73,6 @@
          "1827",
          "1830",
          "1833"
-      ]
-    },
-    {
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Montgolfier_Balloon.JPG/170px-Montgolfier_Balloon.JPG",
-      "title": "Quando foi inventado o 'Balão de Ar Quente'?",
-      "description": "Inventor: Joseph & Etienne Montgolfier",
-      "answer": 3,
-      "alternatives": [
-         "1780",
-         "1781",
-         "1782",
-         "1783"
       ]
     },
     {
@@ -133,18 +145,6 @@
          "1901",
          "1945",
          "1962"
-      ]
-    },
-    {
-      "image": "https://media.giphy.com/media/XUFPGrX5Zis6Y/giphy.gif",
-      "title": "Quando foi inventado a 'Bomba Atômica'?",
-      "description": "Inventor: Julius Robert Oppeheimer",
-      "answer": 3,
-      "alternatives": [
-         "1815",
-         "1865",
-         "1914",
-         "1945"
       ]
     }
   ],
