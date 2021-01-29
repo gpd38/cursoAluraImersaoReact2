@@ -2,7 +2,7 @@
 
 Projeto base para a criação de um "Quiz" onde poderemos jogar e ver quem tem mais conhecimento sobre determinado assunto.
 
-![Capa do Projeto](/projeto/invencoesquiz/_docs/capa01.png)
+![Capa do Projeto](https://raw.githubusercontent.com/gpd38/cursoAluraImersaoReact2/main/projeto/invencoesquiz/_docs/capa01.png)
 
 ### Aulas
   * Aula 01 dia 24/01/21: React, Next, Styled Components! Aula 1 Imersão React Next.js
