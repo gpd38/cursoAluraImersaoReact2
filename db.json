@@ -1,30 +1,150 @@
 {
   "bg": "https://cdn.pixabay.com/photo/2014/07/02/09/52/mosaic-382019_960_720.jpg",
   "title": "Quiz Invenções da Alura",
-  "description": "Teste os seus conhecimentos sobre as invenções e descubra se a data que escolheu está correta.",
+  "description": "Teste os seus conhecimentos sobre as invenções do nosso mundo e descubra quando ela foi inventada.",
   "questions": [
     {
-      "image": "https://cdn.britannica.com/15/169215-050-D564F134.jpg",
-      "title": "Quando foi inventado o telegrafo?",
-      "description": "Essa é pra aquecer",
+      "image": "https://media.giphy.com/media/LVCdHNPTIY2be/giphy.gif",
+      "title": "Quando foi inventado 'Para-Raios'?",
+      "description": "Inventor: Benjamin Franklin",
       "answer": 2,
       "alternatives": [
-        "1700",
-        "1745",
-        "1792",
-        "1815"
+        "1712",
+        "1732",
+        "1752",
+        "1772"
       ]
     },
     {
-      "image": "https://hypescience.com/wp-content/uploads/2013/01/fire_wallpaper_by_knato97-d576xm1.jpg",
-      "title": "Quando foi inventado o fogo?",
-      "description": "Faz tempo em haha.",
-      "answer": 0,
+      "image": "https://i5.walmartimages.com/asr/c4fcb591-33b0-4c31-a195-7a1db97a2d73_1.b6f5f2121653509eb0733a81f1ea4ce9.jpeg",
+      "title": "Quando foi inventado 'Abridor de Latas'?",
+      "description": "Inventor: Erza Warner",
+      "answer": 1,
       "alternatives": [
-         "1.000 AC",
-         "3.000 AC",
-         "5.000 AC",
-         "7.000 AC"
+         "1758",
+         "1858",
+         "1958",
+         "NDA"
+      ]
+    },
+    {
+      "image": "https://www.acasadasartes.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/o/borracha_verde.jpg",
+      "title": "Quando foi inventado a 'Borracha'?",
+      "description": "Inventor: Edward Naime",
+      "answer": 1,
+      "alternatives": [
+         "1750",
+         "1770",
+         "1810",
+         "1830"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/ftkCpvutVqubUuQT3V/giphy.gif",
+      "title": "Quando foi inventado o 'Fóforo'?",
+      "description": "Inventor: John Walker",
+      "answer": 1,
+      "alternatives": [
+         "1824",
+         "1827",
+         "1830",
+         "1833"
+      ]
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Montgolfier_Balloon.JPG/170px-Montgolfier_Balloon.JPG",
+      "title": "Quando foi inventado o 'Balão de Ar Quente'?",
+      "description": "Inventor: Joseph & Etienne Montgolfier",
+      "answer": 3,
+      "alternatives": [
+         "1780",
+         "1781",
+         "1782",
+         "1783"
+      ]
+    },
+    {
+      "image": "https://cdn.dentalcremer.com.br/produtos/550/228656_635757457154510981.jpg",
+      "title": "Quando foi inventado a 'Seringa Hipodérmica'?",
+      "description": "Inventor: Dr Charles Gabriel Pravaz",
+      "answer": 2,
+      "alternatives": [
+         "1740",
+         "1802",
+         "1841",
+         "1903"
+      ]
+    },
+    {
+      "image": "https://thumbs.dreamstime.com/z/tabela-do-c%C3%B3digo-morse-molde-62459655.jpg",
+      "title": "Quando foi inventado o 'Código Morse'?",
+      "description": "Inventor: Samuel Finley Morse",
+      "answer": 1,
+      "alternatives": [
+         "1812",
+         "1838",
+         "1845",
+         "1867"
+      ]
+    },
+    {
+      "image": "https://jurosbaixos.com.br/conteudo/wp-content/uploads/sites/2/2017/09/image2-8.jpg",
+      "title": "Quando foi inventado o 'Cartão com Chip'?",
+      "description": "Inventor: Roland Moreno",
+      "answer": 3,
+      "alternatives": [
+         "1896",
+         "1924",
+         "1956",
+         "1974"
+      ]
+    },
+    {
+      "image": "https://super.abril.com.br/wp-content/uploads/2007/10/trebuchet.jpg?quality=70&strip=info",
+      "title": "Quando foi inventado a 'Catapulta'?",
+      "description": "Dica: Na Europa, as primeiras catapultas apareceram em épocas gregas.",
+      "answer": 1,
+      "alternatives": [
+         "500 a.C",
+         "397 a.C",
+         "100 a.C",
+         "NDA"
+      ]
+    },
+    {
+      "image": "https://mediastorage.cnnbrasil.com.br/IMAGES/00/00/00/6591_BB6C3D6F106400AD.jpg",
+      "title": "Quando foi construído a 'Torre Eiffel'?",
+      "description": "Construtor: Alexandre Gustave Eiffel",
+      "answer": 2,
+      "alternatives": [
+         "1887",
+         "1888",
+         "1889",
+         "1900"
+      ]
+    },
+    {
+      "image": "https://www.setorreciclagem.com.br/wp-content/uploads/2013/10/Lacre-de-latinha-720x432.jpg",
+      "title": "Quando foi inventado o 'Anel de Lata'?",
+      "description": "Inventor: Erma Fraze",
+      "answer": 3,
+      "alternatives": [
+         "1879",
+         "1901",
+         "1945",
+         "1962"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/XUFPGrX5Zis6Y/giphy.gif",
+      "title": "Quando foi inventado a 'Bomba Atômica'?",
+      "description": "Inventor: Julius Robert Oppeheimer",
+      "answer": 3,
+      "alternatives": [
+         "1815",
+         "1865",
+         "1914",
+         "1945"
       ]
     }
   ],
