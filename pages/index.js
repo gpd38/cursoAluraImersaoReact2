@@ -35,13 +35,13 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>AluraQuiz - Modelo Base</title>
+        <title>AluraQuiz - Invenções</title>
       </Head>
       <QuizContainer>
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>Invenções do Mundo</h1>
+            <h1>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={function (infosDoEvento) {
@@ -61,7 +61,7 @@ export default function Home() {
               />
               <button type="submit" disabled={name.length === 0}>
                 Jogar
-                {name}
+                {" "+name}
               </button>
             </form>
           </Widget.Content>
@@ -71,9 +71,8 @@ export default function Home() {
           <Widget.Content>
             <h1>Quizes da Galera</h1>
 
-            <p>Fulano 01</p>
-            <p>Beltrano 02</p>
-            <p>Ciclano 03</p>
+            <a href='https://quiz-pokemon.vercel.app' target='_blank' rel='noreferrer'>Quiz Pokemon</a>
+
           </Widget.Content>
         </Widget>
         <Footer />
