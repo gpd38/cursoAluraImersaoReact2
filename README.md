@@ -4,21 +4,21 @@ Projeto base para a criação de um "Quiz" onde poderemos jogar e ver quem tem m
 
 ![Capa do Projeto](/img/capa/invencoesquiz.png)
 
-###Aulas
+### Aulas
   * Aula 01 dia 24/01/21: React, Next, Styled Components! Aula 1 Imersão React Next.js
   * Aula 02 dia 25/01/21: Linter, Rotas e State! Aula 2 Imersão React Next.js
   * Aula 03 dia 26/01/21: Inputs e página de Quiz! Aula 3 Imersão React Next.js
   * Aula 04 dia 27/01/21: Quiz, Pontuação e Integrações com Next.js! Aula 4 Imersão React Next.js
   * Aula 05 dia 28/01/21: 
 
-###Layout
+### Layout
   - [Link Alura](https://www.figma.com/file/cg1MIzSRRss8ggpypQbmdD/AluraQuiz?node-id=0%3A1)
-  - [Minha Cópia]()
+  - [Meu Figma](#)
 
-###Fórum
+### Fórum
 - [Fórum de discussão - DiscordApp](https://discord.com/invite/uSZGtDrBep)
 
-###Desafios
+### Desafios
 Aula 01:
   * Crie seu próprio tema festivo, por exemplo de Halloween;
   * Utilize o protótipo do Figma (link abaixo) e crie o CSS "do zero";
@@ -26,25 +26,25 @@ Aula 01:
   * Desafio da Ju: Pensar em como passar da página inicial para a página de quiz.
 
 Aula 02:
-  * A
+  * .
 
 Aula 03:
-  * A
+  * .
 
 Aula 04:
-  * A
+  * .
 
 Aula 05:
-  * A
+  * .
 
-###Palestrantes
-
-
-###Licença
-  - MIT
+### Palestrantes
 
 
-###Links
+### Licença
+  - [MIT](#)
+
+
+### Links
 
 Você pode dar uma olhada nesse link e separar uma palheta que combine com sua imagem de background :) :
 - https://material-ui.com/customization/color/#playground
