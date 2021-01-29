@@ -70,9 +70,12 @@ export default function Home() {
         <Widget>
           <Widget.Content>
             <h1>Quizes da Galera</h1>
-
-            <a href='https://quiz-pokemon.vercel.app' target='_blank' rel='noreferrer'>Quiz Pokemon</a>
-
+              <a href='https://quiz-pokemon.vercel.app' target='_blank' >Quiz Pokemon</a>
+              <br></br>
+              <a href='https://quiz-dragon-ball-immersion-alura-next-js.vercel.app' target='_blank' >Quiz Dragon Ball</a>
+              <br></br>
+              <a href='https://animequiz.ffsf-filho.vercel.app/' target='_blank'>Quiz Animes</a>
+              <br></br>
           </Widget.Content>
         </Widget>
         <Footer />
