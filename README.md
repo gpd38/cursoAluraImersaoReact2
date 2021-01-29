@@ -1,50 +1,78 @@
-# Curso Alura Imersão React 2: Criando um Quiz
+# Example app with styled-components
 
-Projeto base para a criação de um "Quiz" onde poderemos jogar e ver quem tem mais conhecimento sobre determinado assunto.
+This example features how you use a different styling solution than [styled-jsx](https://github.com/zeit/styled-jsx) that also supports universal styles. That means we can serve the required styles for the first render within the HTML and then load the rest in the client. In this case we are using [styled-components](https://github.com/styled-components/styled-components).
 
-![Capa do Projeto](https://raw.githubusercontent.com/gpd38/cursoAluraImersaoReact2/main/projeto/invencoesquiz/_docs/capa01.png)
+For this purpose we are extending the `<Document />` and injecting the server side rendered styles into the `<head>`, and also adding the `babel-plugin-styled-components` (which is required for server side rendering). Additionally we set up a global [theme](https://www.styled-components.com/docs/advanced#theming) for styled-components using NextJS custom [`<App>`](https://nextjs.org/docs/advanced-features/custom-app) component.
 
-### Aulas
-  * Aula 01 dia 24/01/21: React, Next, Styled Components! Aula 1 Imersão React Next.js
-  * Aula 02 dia 25/01/21: Linter, Rotas e State! Aula 2 Imersão React Next.js
-  * Aula 03 dia 26/01/21: Inputs e página de Quiz! Aula 3 Imersão React Next.js
-  * Aula 04 dia 27/01/21: Quiz, Pontuação e Integrações com Next.js! Aula 4 Imersão React Next.js
-  * Aula 05 dia 28/01/21: 
+## Deploy your own
 
-### Layout
-  - [Link Alura](https://www.figma.com/file/cg1MIzSRRss8ggpypQbmdD/AluraQuiz?node-id=0%3A1)
-  - [Meu Figma](#)
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-### Fórum
-- [Fórum de discussão - DiscordApp](https://discord.com/invite/uSZGtDrBep)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-styled-components&project-name=with-styled-components&repository-name=with-styled-components)
 
-### Desafios
-Aula 01:
-  * Crie seu próprio tema festivo, por exemplo de Halloween;
-  * Utilize o protótipo do Figma (link abaixo) e crie o CSS "do zero";
-  * Desafio do Paulo: Implemente a meta tag og:image utilizando a mesma imagem do background;
-  * Desafio da Ju: Pensar em como passar da página inicial para a página de quiz.
+## How to use
 
-Aula 02:
-  * .
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
-Aula 03:
-  * .
+```bash
+npx create-next-app --example with-styled-components with-styled-components-app
+# or
+yarn create next-app --example with-styled-components with-styled-components-app
+```
 
-Aula 04:
-  * .
+Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
-Aula 05:
-  * .
+### Try it on CodeSandbox
 
-### Palestrantes
+[Open this example on CodeSandbox](https://codesandbox.io/s/github/vercel/next.js/tree/canary/examples/with-styled-components)
 
+### Notes
 
-### Licença
-  - [MIT](#)
+When wrapping a [Link](https://nextjs.org/docs/api-reference/next/link) from `next/link` within a styled-component, the [as](https://styled-components.com/docs/api#as-polymorphic-prop) prop provided by `styled` will collide with the Link's `as` prop and cause styled-components to throw an `Invalid tag` error. To avoid this, you can either use the recommended [forwardedAs](https://styled-components.com/docs/api#forwardedas-prop) prop from styled-components or use a different named prop to pass to a `styled` Link.
 
+<details>
+<summary>Click to expand workaround example</summary>
+<br />
 
-### Links
+**components/StyledLink.js**
 
-Você pode dar uma olhada nesse link e separar uma palheta que combine com sua imagem de background :) :
-- https://material-ui.com/customization/color/#playground
+```javascript
+import Link from 'next/link'
+import styled from 'styled-components'
+
+const StyledLink = ({ as, children, className, href }) => (
+  <Link href={href} as={as} passHref>
+    <a className={className}>{children}</a>
+  </Link>
+)
+
+export default styled(StyledLink)`
+  color: #0075e0;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: #40a9ff;
+  }
+
+  &:focus {
+    color: #40a9ff;
+    outline: none;
+    border: 0;
+  }
+`
+```
+
+**pages/index.js**
+
+```javascript
+import StyledLink from '../components/StyledLink'
+
+export default () => (
+  <StyledLink href="/post/[pid]" forwardedAs="/post/abc">
+    First post
+  </StyledLink>
+)
+```
+
+</details>
