@@ -86,7 +86,7 @@ export default function ContributorsPage({ contributors }) {
         </div>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/gpd38/cursoAluraImersaoReact2" />
+      <GitHubCorner projectUrl="https://github.com/omariosouto" />
     </QuizBackground>
   );
 }
