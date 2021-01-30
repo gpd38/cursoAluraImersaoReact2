@@ -149,7 +149,9 @@
     }
   ],
   "external": [
-    ""
+    "https://aluraquizpokemon.cesarrobertopg.vercel.app/",
+    "https://bbbquiz.kpmnta.vercel.app/",
+    "https://aluraquiz-halloween.lucaskuhn.vercel.app/"
   ],
   "theme": {
     "colors": {
